@@ -3,23 +3,19 @@ function reloadPage() {
 }
 
 function color() {
-  if (document.getElementById("btn").style.backgroundColor == "blue") {
-    document.getElementById("btn").style.backgroundColor = "green";
-  } else if (document.getElementById("btn").style.backgroundColor == "green") {
+  if (document.getElementById("btn").style.backgroundColor == "darkblue") {
+    document.getElementById("btn").style.backgroundColor = "darkgreen";
+  } else if (
+    document.getElementById("btn").style.backgroundColor == "darkgreen"
+  ) {
     document.getElementById("btn").style.backgroundColor = "black";
   } else if (document.getElementById("btn").style.backgroundColor == "black") {
     document.getElementById("btn").style.backgroundColor = "grey";
   } else if (document.getElementById("btn").style.backgroundColor == "grey") {
-    document.getElementById("btn").style.backgroundColor = "yellow";
-  } else if (document.getElementById("btn").style.backgroundColor == "yellow") {
-    document.getElementById("btn").style.backgroundColor = "red";
-  } else if (document.getElementById("btn").style.backgroundColor == "red") {
-    document.getElementById("btn").style.backgroundColor = "purple";
-  } else if (document.getElementById("btn").style.backgroundColor == "purple") {
-    document.getElementById("btn").style.backgroundColor = "white";
+    document.getElementById("btn").style.backgroundColor = "#19190f";
   } else {
-    document.getElementById("btn").style.backgroundColor == "blue";
-    document.getElementById("btn").style.backgroundColor = "pink";
+    document.getElementById("btn").style.backgroundColor == "darkblue";
+    document.getElementById("btn").style.backgroundColor = "darkwhite";
   }
 }
 function fun() {
