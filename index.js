@@ -15,7 +15,6 @@ function color() {
     document.getElementById("btn").style.backgroundColor = "#19190f";
   } else {
     document.getElementById("btn").style.backgroundColor == "darkblue";
-    document.getElementById("btn").style.backgroundColor = "darkwhite";
   }
 }
 function fun() {
